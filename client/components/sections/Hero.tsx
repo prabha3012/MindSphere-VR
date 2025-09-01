@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export function Hero() {
   return (
-    <section id="home" className="relative overflow-hidden">
+    <section id="home" className="relative overflow-hidden scroll-mt-24">
       <div aria-hidden className="pointer-events-none absolute inset-0">
         <div className="absolute -top-40 -right-40 h-[500px] w-[500px] rounded-full bg-gradient-to-tr from-indigo-500 via-fuchsia-500 to-teal-400 opacity-30 blur-3xl" />
         <div className="absolute -bottom-40 -left-40 h-[500px] w-[500px] rounded-full bg-gradient-to-tr from-teal-400 via-blue-500 to-fuchsia-500 opacity-30 blur-3xl" />
