@@ -20,7 +20,7 @@ export function Hero() {
           A futuristic, trust-inspiring platform combining VR, AI, and real-time feedback to elevate mental wellness.
         </p>
         <div className="mt-8 flex flex-col sm:flex-row items-center gap-4">
-          <Button asChild size="lg" className="rounded-full bg-gradient-to-r from-indigo-500 via-fuchsia-500 to-teal-400 text-white shadow-xl hover:opacity-90">
+          <Button asChild size="lg" className="rounded-full bg-gradient-to-r from-indigo-500 via-fuchsia-500 to-teal-400 text-white shadow-xl transition-transform hover:scale-[1.02] hover:opacity-90">
             <a href="#contact">Get Started</a>
           </Button>
           <a href="#demo" className="text-sm font-semibold text-foreground/80 hover:text-foreground">
