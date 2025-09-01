@@ -9,7 +9,7 @@ const FEATURES = [
 
 export function Features() {
   return (
-    <section id="features" className="relative py-20">
+    <section id="features" className="relative py-20 scroll-mt-24">
       <div className="container">
         <h2 className="text-center text-3xl md:text-4xl font-extrabold tracking-tight">Features</h2>
         <div className="mx-auto mt-10 grid max-w-5xl grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
