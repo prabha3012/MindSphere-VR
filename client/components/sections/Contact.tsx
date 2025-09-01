@@ -15,7 +15,7 @@ export function Contact() {
   }
 
   return (
-    <section id="contact" className="relative py-20">
+    <section id="contact" className="relative py-20 scroll-mt-24">
       <div className="container">
         <h2 className="text-center text-3xl md:text-4xl font-extrabold tracking-tight">Contact Us</h2>
         <form onSubmit={onSubmit} className="mx-auto mt-10 grid max-w-2xl gap-4 rounded-2xl border border-white/10 bg-white/5 p-6 shadow-[inset_0_1px_0_rgba(255,255,255,0.05)]">
