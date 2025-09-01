@@ -31,7 +31,7 @@ export function Contact() {
             <label htmlFor="message" className="text-sm font-medium">Message</label>
             <Textarea id="message" name="message" required rows={5} placeholder="How can we help?" />
           </div>
-          <Button type="submit" className="mt-2 rounded-full bg-gradient-to-r from-indigo-500 via-fuchsia-500 to-teal-400 text-white shadow-lg hover:opacity-90">
+          <Button type="submit" className="mt-2 rounded-full bg-gradient-to-r from-indigo-500 via-fuchsia-500 to-teal-400 text-white shadow-lg transition-transform hover:scale-[1.02] hover:opacity-90">
             Send Message
           </Button>
         </form>
