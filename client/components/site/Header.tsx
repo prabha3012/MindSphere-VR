@@ -34,7 +34,7 @@ export function SiteHeader() {
               {item.label}
             </a>
           ))}
-          <Button asChild className="rounded-full bg-gradient-to-r from-indigo-500 via-fuchsia-500 to-teal-400 text-white shadow-lg hover:opacity-90">
+          <Button asChild className="rounded-full bg-gradient-to-r from-indigo-500 via-fuchsia-500 to-teal-400 text-white shadow-lg transition-transform hover:scale-[1.02] hover:opacity-90">
             <a href="#contact">Get Started</a>
           </Button>
         </nav>
@@ -66,7 +66,7 @@ export function SiteHeader() {
               {item.label}
             </a>
           ))}
-          <Button asChild className="rounded-full bg-gradient-to-r from-indigo-500 via-fuchsia-500 to-teal-400 text-white shadow-lg">
+          <Button asChild className="rounded-full bg-gradient-to-r from-indigo-500 via-fuchsia-500 to-teal-400 text-white shadow-lg transition-transform hover:scale-[1.02]">
             <a href="#contact" onClick={() => setOpen(false)}>Get Started</a>
           </Button>
         </div>
