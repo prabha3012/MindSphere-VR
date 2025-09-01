@@ -2,7 +2,7 @@ import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 export function Demo() {
   return (
-    <section id="demo" className="relative py-20">
+    <section id="demo" className="relative py-20 scroll-mt-24">
       <div className="container">
         <h2 className="text-center text-3xl md:text-4xl font-extrabold tracking-tight">Demo</h2>
         <div className="mx-auto mt-10 max-w-5xl">
